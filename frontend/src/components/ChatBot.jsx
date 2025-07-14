@@ -9,7 +9,7 @@ const ChatBot = () => {
   const [messages, setMessages] = useState([
     {
       id: crypto.randomUUID(),
-      text: "Hey there! 👋 Ask me anything — I'm your AI Bestie 🤖",
+      text: "Hey there! 👋 Ask me anythings — I'm your AI Bestie 🤖",
       isUser: false,
       timestamp: new Date()
     }
